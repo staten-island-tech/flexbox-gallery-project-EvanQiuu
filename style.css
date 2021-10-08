@@ -44,7 +44,7 @@ body{
 }
 .pics{
     height: 15rem;
-    
+    width: 15rem;
     align-items: center;
 }
 #birds{
