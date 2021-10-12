@@ -13,7 +13,7 @@ body, * {
 body{
     background-image: url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80);
     background-position: top;
-    background-size: 400rem;
+    background-size: 300rem;
     animation:  ease-in 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -32,11 +32,11 @@ body{
     padding: 4rem;
 }
 .child{
-    border: 6px solid #F3D3BD);
+    border: 12px solid #F3D3BD);
     text-align: center;
     color: #48E5C2;
-    padding: 4rem;
-    margin: 5%;
+    padding: 6rem;
+    margin: 10%;
     background-color: #FCFAF9;
     box-shadow: #333333;
     border-radius: 2rem;
@@ -47,7 +47,7 @@ body{
     width: 15rem;
     align-items: center;
 }
-#birds{
+#types{
     font-size: 5rem;
 }
 .child:hover{
