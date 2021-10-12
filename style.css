@@ -40,15 +40,13 @@ body{
     background-color: #FCFAF9;
     box-shadow: #333333;
     border-radius: 2rem;
-    width: 20rem;
+    width: 23rem;
 }
 .pics{
     height: 15rem;
     width: 15rem;
     align-items: center;
-}
-#types{
-    font-size: 5rem;
+
 }
 .child:hover{
     transform: scale(1.2);
