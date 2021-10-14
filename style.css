@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html,
 body, * {
     padding: 0;
@@ -8,9 +9,10 @@ body, * {
 .hallo1{
     text-align: center;
     font-size: 15rem;
-    color: #F3D3BD;
+    color: #29D68E;
 }
 body{
+    font-family: 'Roboto', sans-serif;
     background-image: url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80);
     background-position: top;
     background-size: 300rem;
@@ -23,7 +25,6 @@ body{
     font-size: 5rem;
     display: flex;
     flex-wrap: wrap;
-    display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-evenly;
@@ -32,12 +33,12 @@ body{
     padding: 4rem;
 }
 .child{
-    border: 12px solid #F3D3BD);
+    border: 5px solid #000000;
     text-align: center;
-    color: #48E5C2;
-    padding: 6rem;
-    margin: 10%;
-    background-color: #FCFAF9;
+    color: #000000;
+    padding: 2rem;
+    margin: 10%;    
+    background-color: #228B22;
     box-shadow: #333333;
     border-radius: 2rem;
     width: 23rem;
@@ -50,8 +51,8 @@ body{
 }
 .child:hover{
     transform: scale(1.2);
-    border-color: aliceblue;
-    background-color: white;
+    border-color: #12ED31;
+    background-color: #12ED31;
     box-shadow: teal;
     animation: ease-in;
     transition: .5s;
