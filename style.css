@@ -49,7 +49,7 @@ body{
     align-items: center;
 
 }
-.child:hover{
+/* .child:hover{
     transform: scale(1.2);
     border-color: #12ED31;
     background-color: #12ED31;
@@ -57,12 +57,11 @@ body{
     animation: ease-in;
     transition: .5s;
     transition-property: all;
-}
+} */
 p {
     animation-duration: 3s;
     animation-name: slidein;
   }
-  
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -73,9 +72,6 @@ p {
       margin-left: 0%;
       width: 100%;
     }
-  }
-  .child1:{
-
   }
   .box {
     width: 100px;
@@ -88,11 +84,10 @@ p {
     animation-direction: alternate;  
   }
   
+  
   @keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
     50%  {background-color:blue; left:200px; top:200px;}
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
-  }
-  
