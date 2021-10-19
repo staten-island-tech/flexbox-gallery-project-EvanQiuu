@@ -74,8 +74,8 @@ p {
     }
   }
   .box {
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     background-color: red;
     position: relative;
     animation-name: example;
