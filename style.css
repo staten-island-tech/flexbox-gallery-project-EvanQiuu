@@ -15,7 +15,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-image: url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80);
     background-position: top;
-    background-size: 300rem;
     animation:  ease-in 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
